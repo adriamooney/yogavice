@@ -16,3 +16,5 @@ fields:
     schema:
       format: markdown
   label: Post body
+pages:
+- hugosite/content/this-is-a-title.md
