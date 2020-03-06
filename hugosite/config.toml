@@ -1,0 +1,6 @@
+baseURL = "http://example.org/"
+baseurl = "/"                   # The base URL of your Hugo site
+title = "Yoga Vice"
+description = "what goes here"
+languageCode = "en-us"
+theme="pulp"
