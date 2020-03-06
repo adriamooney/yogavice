@@ -1,3 +1,6 @@
 [submodule "hugosite/themes/pulp"]
 	path = hugosite/themes/pulp
 	url = https://github.com/koirand/pulp.git
+[submodule "hugosite/themes/educenter-hugo"]
+	path = hugosite/themes/educenter-hugo
+	url = https://github.com/themefisher/educenter-hugo.git
