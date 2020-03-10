@@ -1,6 +1,0 @@
-baseURL = "http://example.org/"
-baseurl = "/"
-description = "what goes here"
-languageCode = "en-us"
-theme="educenter-hugo"
-title = "Yoga Vice"
