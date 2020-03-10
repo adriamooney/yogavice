@@ -2,20 +2,14 @@
 templateKey: index-page
 title: Great coffee with a conscience
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Yoga Vice
+subheading: Some tagline
 mainpitch:
-  title: Why Kaldi
+  title: Why Yoga Vice
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Handstand low lunge, crescent pose standing half forward bend frog pose shoulder pressing pose bow pose upward facing two-foot staff pose sage koundinya i pose yoga plow pose little thunderbolt pose cat pose fish pose root bond revolved side angle pose simple twist pose sideways facing forward bend pose equal standing pose bridge pose yoga of sound breath three parts forward bend pose wide angle seated forward bend lizard pose extended side angle pose extended triangle pose hero pose.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Half lord of the fishes pose half lotus pose standing half forward bend bridge pose monkey pose king pigeon pose marichi's pose iii feathered peacock pose, forearm stand standing straddle forward bend, wide-legged forward bend scale pose upward bow or wheel pose legs up the wall pose warrior iii pose.
 intro:
   blurbs:
     - image: /img/coffee.png
