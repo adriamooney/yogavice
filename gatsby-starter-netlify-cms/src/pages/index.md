@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Yoga Vice
 image: /img/home-jumbotron.jpg
 heading: Yoga Vice
 subheading: Some tagline
