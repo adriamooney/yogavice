@@ -9,6 +9,35 @@ $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
+$yv-purple:  #8F089C
+$yv-purple-dark:  #4A0451
+$yv-white:  #F5EFF5
+$white:  #FFF
+$yv-dark:  #050005
+
+//#050005,#4A0451,#8F089C,#E78FF0,#F5EFF5,#050005,#4A0451,#8F089C
+
+// yv Classes
+.yv-hd, .content .yv-hd
+  background:  $yv-purple
+  color: $yv-white
+  box-shadow: rgb(143,8,156) 0.5rem 0px 0px, rgb(143,8,156) -0.5rem 0px 0px
+  line-height: 1
+  padding: 0.25em
+
+.yv-subhd
+  background:  $yv-purple-dark
+  color: $yv-white
+  box-shadow: rgb(74,4,81) 0.5rem 0px 0px, rgb(74,4,81) -0.5rem 0px 0px
+  line-height: 1
+  padding: 0.25em
+
+.yv-background-dark
+  background-color:  $yv-dark
+
+.yv-hd-txt, a.yv-hd-txt,
+  color: $yv-purple
+//end yv classes
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -57,16 +86,23 @@ $black: #2b2523
     font-size: 18px
     font-size: 1rem
     line-height: 1.25
-    background-color: #fff
+    background-color: $yv-purple
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #CC3700
+    color: $yv-white
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
+    -webkit-box-shadow: inset 0 0 0 2px $yv-purple
+    box-shadow: inset 0 0 0 2px $yv-purple
     -webkit-transition: all .15s ease
     transition: all .15s ease
+
+.btn:hover, .btn:focus, .btn:active
+  color: $white
+  background-color:  $yv-purple-dark
+  transition: all .15s ease
+  -webkit-box-shadow: inset 0 0 0 2px $yv-purple-dark
+  box-shadow: inset 0 0 0 2px $yv-purple-dark
 
 .margin-top-0
   margin-top: 0 !important
@@ -82,7 +118,7 @@ $black: #2b2523
   padding: 0 1rem
 footer.footer
   padding: 3rem 0rem 0rem
-  background-color: transparent
+  background-color: $yv-dark
 
 //Menu overrides
 $menu-item-color: $white-ter
@@ -114,27 +150,26 @@ $menu-label-color: $white-ter
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033;
+  background-color: $yv-white
 .blog-list-item header
-  display: flex;
-  margin-bottom: 1em;
+  display: flex
+  margin-bottom: 1em
 .blog-list-item .featured-thumbnail
-  flex-basis: 35%;
-  margin: 0 1.5em 0 0;
+  flex-basis: 35%
+  margin: 0 1.5em 0 0
 
 
 @import "~bulma"
 
-
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
-    flex-basis: 50%;
+    flex-basis: 50%
 
 +mobile
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
-    text-align: center;
-    max-width: 70%;
-    margin: 0 0 1em;
+    text-align: center
+    max-width: 70%
+    margin: 0 0 1em
